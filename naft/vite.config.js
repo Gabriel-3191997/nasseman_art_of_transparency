@@ -1,4 +1,6 @@
 // vite.config.js
-export default {
-  base: '/naft/', // Use your repo name here
-}
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/nasseman_art_of_transparency/',
+});
