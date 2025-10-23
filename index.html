@@ -6,12 +6,19 @@
   <link rel="icon" type="image/svg+xml" href="/nasseman_art_of_transparency/assets/logo-4qZqnlnA.jpeg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" /> -->
+   <!-- jquery -->
+<script src="./src/js/jquery-3.7.1.min.js">
+</script>
+<!-- w3js -->
+ <script src="https://www.w3schools.com/lib/w3.js">
+</script>
   <title>Nasseman Art For Transparency</title>
-  <script type="module" crossorigin src="/nasseman_art_of_transparency/assets/index-7XNogHZu.js"></script>
-  <link rel="stylesheet" crossorigin href="/nasseman_art_of_transparency/assets/index-DEun03xW.css">
+  <script type="module" crossorigin src="/nasseman_art_of_transparency/assets/index-CSRaRbJE.js"></script>
+  <link rel="stylesheet" crossorigin href="/nasseman_art_of_transparency/assets/index-DrIibjgW.css">
 </head>
 
-<body class="bg-white m-0 w-auto h-auto">
+<body class="bg-white">
   <!-- navigation bar -->
   <div class="bg-white py-8 md:mx-24 mx-8">
     <ul class="flex justify-end md:justify-end gap-6 md:gap-10 md:mx-28">
@@ -39,10 +46,16 @@
 
   <!-- hero-image -->
   <div class="flex flex-wrap justify-center gap-2 md:gap-0 px-4 sm:px-6 md:px-48">
-    <div class="w-full md:w-1/2 overflow-hidden bg-black h-96 md:h-96 md:rounded-l-lg ">
+    <div class="w-full md:w-1/2  bg-black h-96 md:h-96 md:rounded-l-lg ">
 
-      <img src="/nasseman_art_of_transparency/images/WhatsApp Image 2025-10-13 at 8.14.08 PM (2).jpeg" alt="image"
-        class="w-full h-full object-cover bg-bottom hover:cursor-pointer hover:bg-blend-overlay hover:opacity-50">
+      <img src="/nasseman_art_of_transparency/images/WhatsApp Image 2025-10-14 at 9.24.47 AM (1).jpeg" alt="image"
+        class="nature w-full h-full object-cover bg-bottom hover:cursor-pointer hover:bg-blend-overlay hover:opacity-50">
+        <!-- img 2 -->
+          <img src="/nasseman_art_of_transparency/images/WhatsApp Image 2025-10-14 at 9.24.48 AM.jpeg" alt="image"
+        class="nature w-full h-full object-cover bg-bottom hover:cursor-pointer hover:bg-blend-overlay hover:opacity-50">
+      <!-- img 3 -->
+        <img src="/nasseman_art_of_transparency/images/WhatsApp Image 2025-10-14 at 9.24.47 AM.jpeg" alt="image"
+        class="nature w-full h-full object-cover bg-bottom hover:cursor-pointer hover:bg-blend-overlay hover:opacity-50">
     </div>
 
     <div class="w-full md:max-w-lg h-full md:h-96 bg-red-900 md:rounded-r-lg">
@@ -128,21 +141,21 @@
   </div>
   </div>
   <!-- section 1 -->
-  <div id="section-1" class="mt-48 h-96 md:mx-24 bg-blend-overlay bg-gray-800 rounded-md border border-">
-    <div class="bg-cover h-96 md:mx-32 py-8">
-      <h1 class="text-center mt-8 text-4xl text-white font-sans font-semibold uppercase">become a partner <br>against corruption
+  <div id="section-1" class="mt-48 md:mt-48 py-10 md:h-96 md:mx-24 bg-blend-overlay bg-gray-800 rounded-none md:rounded-md">
+    <div class="bg-cover h-auto md:mx-32">
+      <h1 class="text-center mx-5 mt-5 text-4xl text-white font-sans font-semibold uppercase">become a partner <br>against corruption
 
       </h1>
       <!-- paragraph -->
       <div class="flex justify-center">
-        <p class="max-w-md font-sans text-white py-5 text-lg text-center">
+        <p class="max-w-md font-sans mx-5 text-white py-5 text-lg text-center">
           Join us, support our Movement! and let’s help educate the next generation about the ripple effects of
           corruption and injustice in our society.
         </p>
       </div>
       <div class="bg-no-repeat bg-cover bg-blend-overlay bg-inherit flex justify-center">
-        <a href="yourfile.pdf" download
-          class="text-white bg-red-900 px-8 py-4 rounded inline-flex items-center capitalize shadow-gray-400 shadow-sm">
+        <a href="./src/Documets/Nasseman_Art_for_Transparency_Partnership_Registration_Form.docx" download
+          class="text-white bg-red-800 px-8 py-4 rounded inline-flex items-center capitalize shadow-gray-400 shadow-sm">
           <i class="fas fa-file-arrow-down px-5 text-xl"></i> register now
         </a>
       </div>
@@ -151,10 +164,15 @@
   <!-- section 2 -->
   <div class="flex flex-wrap justify-evenly items-center md:justify-between bg-white mx-8 h-auto md:mx-24 mt-20 gap-20 md:gap-0">
     <div class="md:max-w-xl bg-white">
-      <p class="text-left max-w-lg text-lg font-sans font-normal normal-case">
+      <p class="text-left max-w-lg sm:text-xl lg:text-xl md:text-lg font-sans font-normal normal-case">
         Nasseman Art For Transparency (NAFT) is a Non-Governmental Organization (NGO) founded by Mr. Rabbie
         Nassrallah, popularly known as NASSEMAN, a Global Music Anti- Corruption Ambassador for Transparency
-        International and FairPlay Music. <br> <span class="text-red-900 normal-case cursor-pointer hover:underline">read
+        International and FairPlay Music. 
+        <span id="readmore">
+          Nasseman Art For Transparency is on a mission to empower young people to raise their voices against corruption and injustice through various artistic mediums such as education, music, art, drama,
+and films.
+        </span>
+        <br> <span class="text-red-900 normal-case cursor-pointer hover:underline" id="read">read
           more</span>
       </p>
     </div>
@@ -169,23 +187,23 @@
     <div class="md:max-w-xl hover:bg-black hover:bg-blend-overlay h-96 rounded-lg">
       <img src="/nasseman_art_of_transparency/assets/WhatsApp%20Image%202025-10-14%20at%209.24.48%20AM-jRSxb7rL.jpeg" alt="" class="h-full w-auto md:w-full object-cover hover:cursor-pointer hover:opacity-50 rounded-lg">
     </div>
-    <div class="max-w-xl h-96 bg-white">
-      <div class="py-10 justify-center items-center">
+    <div class="w-auto justify-center md:max-w-xl h-80 md:h-96 bg-white">
+      <div class="py-5 md:py-10">
         <h1 class="text-center font-sans font-bold text-3xl uppercase py-5">support us</h1>
-      <p class="text-lg md:max-w-xl normal-case font-sans md:mx-20 text-center">
+      <p class="text-xl md:text-lg w-auto mx-5 md:max-w-xl normal-case font-sans md:mx-20 text-center">
         We educate youth and raise awareness 
 about the dangers of corruption, aspiring 
-towards a corruption- free society. <br> Download our <a href="#" class="capitalize text-red-900 hover:underline">brochure</a>
+towards a corruption- free society. <br> Download our <a href="./src/Documets/naft_brochure.pdf" download class="capitalize text-red-900 hover:underline">brochure</a>
       </p>
       </div>
     </div>    
   </div>
   <!-- partners -->
-  <div class="bg-red-900 mt-20  rounded-lg md:mx-20  md:h-96 h-auto py-5 md:py-8">
-    <!-- <h1 class="text-center font-sans font-semibold py-10 text-3xl uppercase text-white">
+  <div class="bg-red-900 bg-blend-overlay  mt-4 md:mt-20  rounded-none md:rounded-lg md:mx-20  md:h-96 h-auto py-5 md:py-8" id="partners">
+    <h1 class="text-center font-sans font-semibold py-8 text-3xl md:text-4xl uppercase text-white">
       our partners
-    </h1> -->
-     <div class=" bg-inherit flex justify-center flex-wrap mt-8 md:mt-24 gap-14">
+    </h1>
+     <div class="flex justify-center flex-wrap mt-8 md:mt-10 gap-14">
     <div class="w-80">
       <img src="/nasseman_art_of_transparency/assets/WhatsApp%20Image%202025-10-14%20at%2012.20.32%20PM-MqEIzooj.jpeg" alt="Fair Play Music" class="h-24 w-auto hover:cursor-pointer mx-5">
     </div>
@@ -203,7 +221,7 @@ towards a corruption- free society. <br> Download our <a href="#" class="capital
     gallery
   </h1>
 </div>
-  <script src="/nasseman_art_of_transparency/js/myscript.js"></script>
-
+  <script src="./src/js/myscript.js">
+  </script>
 </body>
 </html>
