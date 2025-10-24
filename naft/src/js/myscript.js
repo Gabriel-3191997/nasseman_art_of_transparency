@@ -21,7 +21,7 @@
 
     $('div#img4').hide();
 
-    $('#see_btn').click(function(){
+    $('#see_btn').on('click', function(){
 
       $('#img4').toggle();
     });
