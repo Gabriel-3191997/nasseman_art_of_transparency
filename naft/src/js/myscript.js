@@ -16,3 +16,14 @@
     });
 
   });
+
+  $(document).ready(function(){
+
+    $('div#img4').hide();
+
+    $('#see_btn').click(function(){
+
+      $('#img4').toggle();
+    });
+
+  });
