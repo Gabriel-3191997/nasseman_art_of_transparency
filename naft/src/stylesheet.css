@@ -1,0 +1,23 @@
+#section-1 {
+  background-image: url("/images/514056305_18365812996196814_7321307306569984120_n.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body{
+
+  margin: 0;
+  overflow-x: auto;
+}
+
+#partners{
+  background-image: url("/images/WhatsApp Image 2025-10-14 at 9.24.46 AM (1).jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+span#readmore{
+  display: none;
+}
