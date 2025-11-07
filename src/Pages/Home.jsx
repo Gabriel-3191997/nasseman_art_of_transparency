@@ -5,6 +5,7 @@ import News from '../components/news.jsx';
 import Navbar from '../components/navbar.jsx';
 import Partenership from '../components/partenership.jsx';
 import Sec from  '../components/section_2.jsx'
+import Sponsorhip from '../components/sponsorhip.jsx';
 
 class Home extends React.Component {
     render(){
@@ -17,6 +18,7 @@ class Home extends React.Component {
             <News />
             <Partenership />
             <Sec />
+            <Sponsorhip />
             </>
         );
     }
