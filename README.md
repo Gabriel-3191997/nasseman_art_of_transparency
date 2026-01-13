@@ -1,1 +1,0 @@
-# nasseman_art_of_transparency
